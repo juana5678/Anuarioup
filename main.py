@@ -201,7 +201,7 @@ def onmessage(update,bot:TechDevClient):
         tl_admin_user = os.environ.get('tl_admin_user')
 
         #set in debug
-        tl_admin_user = 'tech_dev_ortiz'
+        tl_admin_user = 'JAGB2021'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -406,12 +406,12 @@ def onmessage(update,bot:TechDevClient):
         else:
             bot.editMessageText(message,"No se pudo procesar")
             
-users = "tech_dev_ortiz Chris_bel14 Leroy1712 User7503Dev anonedev CarlosCampillo JennPMoon alejandromiguelortiz JavierAlonso0526 Gisy2111 christian18sarmiento luisernesto95 Marquez_tg none"
+users = "JAGB2021 Chris_bel14 Leroy1712 User7503Dev anonedev CarlosCampillo JennPMoon alejandromiguelortiz JavierAlonso0526 Gisy2111 christian18sarmiento luisernesto95 Marquez_tg none"
 def main():
     bot_token = os.environ.get('bot_token')
     print('BOT INICIADO')
-    montado = '5305881675:AAHii90T_6slhHBYYZKgQ8YLEYLPXCZLiq8'
-    prueba = '5617725067:AAHXOOJR33hNJ9NfxTozuj7cmnR4A_OhKuw'
+    montado = '5947045568:AAE0mfkt85dPRAYIKGBEFdHd4qG4U3Y4bAA'
+    prueba = ''
     bot_token = montado
     bot = TechDevClient(bot_token)
     bot.onMessage(onmessage)
